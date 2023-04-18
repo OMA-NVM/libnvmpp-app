@@ -1,0 +1,4 @@
+$(eval $(call addlib,appcasestudy))
+
+APPCASESTUDY_SRCS-y += $(APPCASESTUDY_BASE)/main.cpp
+APPCASESTUDY_CXXFLAGS-y    += -fcheck-new
